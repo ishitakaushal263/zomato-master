@@ -7,8 +7,7 @@ function HomeLayout({ props, children }) {
     <div>
       <Navbar {...props}/>
       <FoodTab {...props}/>
-      <div className="container mx-auto px-4 lg:px-20">{children}</div>\
-      Footer
+      <div className="container mx-auto px-4 lg:px-20">{children}</div>
     </div>
   );
 }
